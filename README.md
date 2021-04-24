@@ -14,9 +14,16 @@ The programming language that I chose for this project was C++
 This program should run on any relatively recent version of C++. While installing, the user must choose to install all the optimal features.
 
 # User Manual
+1. Once you have cloned the repo, unzip or extract the files as necessary.
+2. Go inside the folder, double-click the "xtra.vcxproj" or "xtra.sln" file to run the program/solution.
+3. Once the program is started, the program will immediately begin the algorithm 
+    -It will first print the list of random house distances 
+    -Then print the house distance list in numerical order
+4. Finally, once the program has completed, the total list of cell tour distances from the westpoint will be displayed
 
 # Reflection
+Initially, I had envisioned beginnning this algorithm by placing a cell at 0. However, theoretically, the houses could begin at any mile, such as 24, for example. Because of this, I decided to base the starting point off of the first house rather than the westpoint. By doing this, and checking every houses distance from the most recently placed cell, the number of cell phone base stations is minimized.
 
 # Results
-
+Screenshots of running the program through all three text files are within the screenshots folder(:
  
